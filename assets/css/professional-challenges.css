@@ -1,0 +1,41 @@
+.professional-challenges {
+    border-bottom: 1px solid #33A8DB;
+    text-align: center;
+    padding: 80px 0 90px;
+}
+
+.challenges-title {
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    line-height: 1.875rem;
+    margin: 0 auto 4rem;
+    max-width: 800px;
+    padding: 0 .5rem;
+    text-transform: uppercase;
+}
+
+.challenges-image {
+    width: 90vw;
+}
+
+.challenges-description {
+    color: #FFF;
+    line-height: 1.25rem;
+    margin: 2rem auto 0;
+    max-width: 800px;
+    padding: 0 .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .challenges-title {
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        line-height: 2.375rem;
+    }
+
+    .challenges-image {
+        width: auto;
+    }
+}
